@@ -20,15 +20,13 @@ class Solution {
                     else
                     {
                         if(s.charAt(f)!=s.charAt(l))
-                    {
-                        return false;
-                    }
-                    f++;
-                    l--;
+                        {
+                            return false;
+                        }
+                        f++;
+                        l--;
                     }
                 }
-            
-        
         return true;
         
     }
