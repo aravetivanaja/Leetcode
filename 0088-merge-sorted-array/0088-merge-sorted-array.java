@@ -8,12 +8,15 @@ class Solution {
         {
             System.out.println(Arrays.toString(nums2));
         }
-        for(int j=0,i=m;j<n;j++)
+
+            for(int j=0,i=m;j<n;j++)
         {
             nums1[i]=nums2[j];
             i++;
         }
          Arrays.sort(nums1);
+        
+        
         
     }
 }
